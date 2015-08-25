@@ -1,16 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'paths/version'
+require 'path_to/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "paths"
+  spec.name          = "path_to"
   spec.version       = Paths::VERSION
   spec.authors       = ["Andrew Myers"]
   spec.email         = ["afredmyers@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Simple class to handle conditional logic of looking for a file in multiple paths.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
