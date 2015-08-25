@@ -5,7 +5,7 @@ require 'path_to/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "path_to"
-  spec.version       = Paths::VERSION
+  spec.version       = PathTo::VERSION
   spec.authors       = ["Andrew Myers"]
   spec.email         = ["afredmyers@gmail.com"]
 
