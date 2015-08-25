@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["afredmyers@gmail.com"]
 
   spec.summary       = %q{Simple class to handle conditional logic of looking for a file in multiple paths.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/afred/path_to"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
